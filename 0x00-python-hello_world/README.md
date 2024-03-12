@@ -165,3 +165,24 @@ guillaume@ubuntu:~/py/0x00$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x00-python-hello_world`
 - File: [3-print_number.py](3-print_number.py)
+
+## Task 4. Print float (mandatory)
+
+Complete the source code in order to print the float stored in the variable `number` with a precision of 2 digits.
+
+- You can find the source code here
+- The output of the program should be:
+  - Float:, followed by the float with only 2 digits
+  - followed by a new line
+= You are not allowed to cast number to string
+= You have to use f-strings
+```
+guillaume@ubuntu:~/py/0x00$ ./4-print_float.py
+Float: 3.14
+guillaume@ubuntu:~/py/0x00$
+```
+**Repo:**
+
+- GitHub repository: `alx-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [4-print_float.py](4-print_float.py)
