@@ -331,17 +331,20 @@ guillaume@ubuntu:~/py/0x00$
 ## Task 10. Linked list cycle (mandatory)
 
 **Technical interview preparation:**
+
 - You are not allowed to google anything
 - Whiteboard first
 - This task and all future technical interview prep tasks will include checks for the efficiency of your solution, i.e. is your solution’s runtime fast enough, does your solution require extra memory usage / mallocs, etc.
 
 Write a function in C that checks if a singly linked list has a cycle in it.
+
 - Prototype: `int check_cycle(listint_t \*list);`
 - Return: `0` if there is no cycle, 1 if there is a cycle
 
 Requirements:
 
 - Only these functions are allowed: `write`, `printf`, `putchar`, `puts`, `malloc`, `free`
+
 ```
 carrie@ubuntu:~/0x00$ cat lists.h
 #ifndef LISTS_H
@@ -355,7 +358,7 @@ carrie@ubuntu:~/0x00$ cat lists.h
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * 
+ *
  */
 typedef struct listint_s
 {
@@ -497,7 +500,7 @@ int main(void)
 
 ```
 carrie@ubuntu:~/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
-carrie@ubuntu:~/0x00$$ ./cycle 
+carrie@ubuntu:~/0x00$$ ./cycle
 1024
 402
 98
@@ -518,3 +521,29 @@ Solving a problem is already a big win! but finding the best and optimal way to 
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x00-python-hello_world`
 - File: [10-check_cycle.c](10-check_cycle.c), [lists.h](lists.h)
+
+## Task 11. Hello, write (advanced)
+
+Write a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
+
+- Use the function `write` from the `sys` module
+- You are not allowed to use `print`
+- Your script should print to `stderr`
+- Your script should exit with the status code `1`
+
+```
+guillaume@ubuntu:~/py/0x00$ ./100-write.py
+and that piece of art is useful - Dora Korpar, 2015-10-19
+guillaume@ubuntu:~/py/0x00$ echo $?
+1
+guillaume@ubuntu:~/py/0x00$ ./100-write.py 2> q
+guillaume@ubuntu:~/py/0x00$ cat q
+and that piece of art is useful - Dora Korpar, 2015-10-19
+guillaume@ubuntu:~/py/0x00$
+```
+
+**Repo:**
+
+- GitHub repository: `alx-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [100-write.py](100-write.py)
