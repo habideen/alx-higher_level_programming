@@ -551,7 +551,6 @@ guillaume@ubuntu:~/py/0x00$
 
 12. Compile
 #advanced
-Score: 0.0% (Checks completed: 0.0%)
 Write a script that compiles a Python script file.
 
 The Python file name will be stored in the environment variable `$PYFILE`
@@ -584,6 +583,25 @@ guillaume@ubuntu:~/py/0x00$
 ```
 **Repo:**
 
-GitHub repository: `alx-higher_level_programming`
-Directory: `0x00-python-hello_world`
-File: [101-compile](101-compile)
+- GitHub repository: `alx-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [101-compile](101-compile)
+
+
+## Task 13. ByteCode -> Python #1 (advanced)
+
+Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
+```
+  3           0 LOAD_CONST               1 (98)
+              3 LOAD_FAST                0 (a)
+              6 LOAD_FAST                1 (b)
+              9 BINARY_POWER
+             10 BINARY_ADD
+             11 RETURN_VALUE
+```
+Tip: [Python bytecode](https://intranet.alxswe.com/rltoken/B38QeZHREbvgq-wY7Ze3vQ)
+**Repo:**
+
+- GitHub repository: `alx-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [102-magic_calculation.py](102-magic_calculation.py)
