@@ -84,7 +84,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 `Pycodestyle` is now the [new standard of Python style code](https://github.com/PyCQA/pycodestyle/issues/466)
 
-## Tasks `0. Run Python file` (mandatory)
+## Tasks 0. Run Python file (mandatory)
 
 Write a Shell script that runs a Python script.
 
@@ -106,3 +106,21 @@ guillaume@ubuntu:~/py/0x00$
 - Directory: 0x00-python-hello_world
 - File: [0-run](0-run)
 
+## Task 1. Run inline (mandatory)
+
+Write a Shell script that runs Python code.
+
+The Python code will be saved in the environment variable `$PYCODE`
+
+```
+guillaume@ubuntu:~/py/0x00$ export PYCODE='print(f"Best School: {88+10}")'
+guillaume@ubuntu:~/py/0x00$ ./1-run_inline
+Best School: 98
+guillaume@ubuntu:~/py/0x00$
+```
+
+**Repo:**
+
+- GitHub repository: `alx-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: [1-run_inline](1-run_inline)
