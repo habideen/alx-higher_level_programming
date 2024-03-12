@@ -124,3 +124,21 @@ guillaume@ubuntu:~/py/0x00$
 - GitHub repository: `alx-higher_level_programming`
 - Directory: `0x00-python-hello_world`
 - File: [1-run_inline](1-run_inline)
+
+
+## Task 2. Hello, print (mandatory)
+
+Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+
+Use the function print
+```
+guillaume@ubuntu:~/py/0x00$ ./2-print.py 
+"Programming is like building a multilingual puzzle
+guillaume@ubuntu:~/py/0x00$
+```
+
+**Repo:**
+
+GitHub repository: `alx-higher_level_programming`
+Directory: `0x00-python-hello_world`
+File: [2-print.py](2-print.py)
